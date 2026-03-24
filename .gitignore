@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# MacOS
+.DS_Store
+
+# Output files
+# output/
+# !output/.gitkeep
+# *.docx
+# *.png
+# *.jpg
+# *.jpeg
