@@ -52,6 +52,6 @@ Follow the interactive prompts in the terminal to generate your documentation!
 
 - **Terminal Human-in-the-Loop:** Don't like the generated outline? Ask the agent to add, remove, or change focus areas before any heavy processing begins.
 - **Smart Image Strategy:** Avoids hallucinated images by scraping real image `src` tags from actual web articles first. Only uses Gemini generation as a fallback for missing graphics/diagrams.
-- **Citations Formatting:** Automatic numeric inline citations and a compiled, deduplicated References section at the end of the document.
+- **Citations Formatting:** References section at the end of the document.
 - **Deduplication Checks:** Ensures images are not reused across different sections via MD5 hashing.
 - **Professional Formatting:** Fully justified text, capped image dimensions, and clean heading hierarchies.
